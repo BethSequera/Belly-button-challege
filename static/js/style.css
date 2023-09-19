@@ -1,0 +1,53 @@
+/* Apply styles to the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the page title */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the dropdown menu */
+#selDataset {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Style the charts container */
+.charts {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style individual charts */
+.chart {
+    width: 48%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the metadata display */
+.metadata {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style metadata key-value pairs */
+.metadata h6 {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
